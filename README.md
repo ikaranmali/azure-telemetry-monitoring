@@ -1,23 +1,16 @@
----
-
-description: "A Python utility that show how a device that uses the IoT Plug and Play conventions interacts with either Azure IoT Hub or IoT Central."
-languages:
-- python
-products:
-- azure-iot-hub
-- azure-iot-central
-- azure-iot-pnp
----
-
-# Using IoT Plug And Play device 
-
-[![Documentation](../../doc/images/docs-link-buttons/azure-documentation.svg)](https://docs.microsoft.com/azure/iot-develop/)
-
-These samples demonstrate how a device that follows the IoT Plug and Play conventions interacts with Azure IoT Hub or IoT Central, to:
+# Description 
+* A Python utility that show how a device that uses the IoT Plug and Play conventions interacts with either Azure IoT Hub or IoT Central.
+* This utility demonstrate how a device that follows the IoT Plug and Play conventions interacts with Azure IoT Hub or IoT Central, to:
 
 - Send telemetry.
 - Update read-only and read-write properties.
 - Respond to command invocation.
+
+* languages:
+  - python
+* azure services:
+  - azure-iot-hub
+  - azure-iot-pnp
 
 ## Screens
 
@@ -25,9 +18,9 @@ These samples demonstrate how a device that follows the IoT Plug and Play conven
 
 ![2 screen](/screenshots/3.ico) 
 
-## Configuring the samples
+## Configuring the utility
 
-Both samples use environment variables to retrieve configuration.
+utility use environment variables to retrieve configuration.
 
 * If you are using a connection string to authenticate:
   * set IOTHUB_DEVICE_SECURITY_TYPE="connectionString"
@@ -38,3 +31,6 @@ Both samples use environment variables to retrieve configuration.
 
 ## Running the instance
 * python3 temperature.py
+
+[![Helper Documentation](../../doc/images/docs-link-buttons/azure-documentation.svg)](https://docs.microsoft.com/azure/iot-develop/)
+
