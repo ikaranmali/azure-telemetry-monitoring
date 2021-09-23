@@ -2,15 +2,15 @@
 * A Python utility that show how a device that uses the IoT Plug and Play conventions interacts with either Azure IoT Hub or IoT Central.
 * This utility demonstrate how a device that follows the IoT Plug and Play conventions interacts with Azure IoT Hub or IoT Central, to:
 
-- Send telemetry.
-- Update read-only and read-write properties.
-- Respond to command invocation.
+  * Send telemetry.
+  * Update read-only and read-write properties.
+  * Respond to command invocation.
 
 * languages:
-  - python
+  * python
 * azure services:
-  - azure-iot-hub
-  - azure-iot-pnp
+  * azure-iot-hub
+  * azure-iot-pnp
 
 ## Screens
 
