@@ -1,8 +1,3 @@
-# -------------------------------------------------------------------------
-# Copyright (c) Microsoft Corporation. All rights reserved.
-# Licensed under the MIT License. See License.txt in the project root for
-# license information.
-# --------------------------------------------------------------------------
 """
 This module knows how to convert device SDK functionality into a plug and play functionality.
 These methods formats the telemetry, methods, properties to plug and play relevant telemetry,
